@@ -24,12 +24,8 @@ El Repository Pattern centraliza el acceso a los datos (API, base de datos, etc.
 
 ### Diagrama de Arquitectura
 
-[Incluir un diagrama simple dibujado a mano o digital mostrando:
- - View (Fragment)
- - ViewModel
- - Repository
- - Model
- - Flechas indicando flujo de datos]
+<img width="431" height="450" alt="image" src="https://github.com/user-attachments/assets/2632982e-47d0-48c6-914e-2f334a2cebd4" />
+
 
 ### Capturas de Pantalla
 
