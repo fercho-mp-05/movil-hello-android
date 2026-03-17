@@ -8,7 +8,7 @@ Este repositorio contiene el desarrollo del **Taller 2** de la asignatura de Apl
 
 ## 👨‍🏫 Profesor
 
-* [Nombre del profesor]
+* Genner Carrillo
 
 ## 📌 Descripción
 
