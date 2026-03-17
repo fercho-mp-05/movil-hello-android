@@ -24,10 +24,13 @@ El Repository Pattern centraliza el acceso a los datos (API, base de datos, etc.
 
 ### Diagrama de Arquitectura
 
-<img width="431" height="450" alt="image" src="https://github.com/user-attachments/assets/2632982e-47d0-48c6-914e-2f334a2cebd4" />
+<img width="431" height="450" alt="Diagrama_arquitectura_taller_2" src="https://github.com/user-attachments/assets/2632982e-47d0-48c6-914e-2f334a2cebd4" />
 
-
+------
 ### Capturas de Pantalla
 
-![Lista de usuarios](docs/screenshot_list.png)
-![Detalle de usuario](docs/screenshot_detail.png)
+1. Lista de usuarios:
+<img width="1408" height="2974" alt="Captura_Lista_usuarios" src="https://github.com/user-attachments/assets/1d5775d6-cc8d-419c-998c-05c80fb39f06" />
+
+2. Detalle de usuario:
+<img width="1408" height="2974" alt="Screenshot_20260317_131705" src="https://github.com/user-attachments/assets/f8af069f-0c81-4e99-b6bd-9cf9b83a76b2" />
