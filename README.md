@@ -21,4 +21,4 @@ Aquí se irán almacenando:
 
 Este documento representa el inicio del curso y se irá actualizando a medida que avance la materia.
 
-<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="350">
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="400">
