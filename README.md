@@ -19,3 +19,19 @@ Los Fragments permiten reutilizar componentes de UI dentro de una misma Activity
 
 #### 5. ¿Cómo ayuda el Repository Pattern a la arquitectura?
 El Repository Pattern centraliza el acceso a los datos (API, base de datos, etc.), separándolo del ViewModel. Esto hace que el código sea más limpio, escalable y fácil de probar.
+
+------
+
+### Diagrama de Arquitectura
+
+[Incluir un diagrama simple dibujado a mano o digital mostrando:
+ - View (Fragment)
+ - ViewModel
+ - Repository
+ - Model
+ - Flechas indicando flujo de datos]
+
+### Capturas de Pantalla
+
+![Lista de usuarios](docs/screenshot_list.png)
+![Detalle de usuario](docs/screenshot_detail.png)
