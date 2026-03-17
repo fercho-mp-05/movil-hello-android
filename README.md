@@ -15,11 +15,10 @@ Aquí se irán almacenando:
 
 * Talleres
 * Ejercicios
-* Proyectos
 * Apuntes
 
 ## Nota
 
 Este documento representa el inicio del curso y se irá actualizando a medida que avance la materia.
 
-<img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="350">
+<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="350">
