@@ -20,5 +20,3 @@ Aquí se irán almacenando:
 ## Nota
 
 Este documento representa el inicio del curso y se irá actualizando a medida que avance la materia.
-
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="400">
