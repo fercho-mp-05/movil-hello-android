@@ -12,7 +12,7 @@ El ViewModel evita que los datos de la UI se pierdan cuando ocurre un cambio de 
 LiveData es "lifecycle-aware" porque solo actualiza la UI cuando el componente (Activity o Fragment) está activo. Esto evita errores, fugas de memoria y actualizaciones innecesarias cuando la pantalla no está visible
 
 #### 3. Explica con tus propias palabras el flujo de datos en MVVM
-En MVVM, la vista (UI) observa los datos del ViewModel. El ViewModel obtiene o procesa la información (por ejemplo desde un Repository) y la expone a la vista. Cuando los datos cambian, la UI se actualiza automáticamente sin necesidad de manejar todo manualmente.
+En MVVM, la pantalla no maneja directamente los datos. En lugar de eso, el ViewModel se encarga de preparar la información y la pantalla solo la muestra. Cuando los datos cambian, la pantalla se actualiza automáticamente sin que tengamos que hacer todo manualmente. Esto hace que el código sea más ordenado y fácil de entender.
 
 #### 4. ¿Qué ventaja tiene usar Fragments vs múltiples Activities?
 Los Fragments permiten reutilizar componentes de UI dentro de una misma Activity, haciendo la navegación más flexible y eficiente. Además, facilitan el manejo de interfaces adaptables y reducen la cantidad de Activities en la app.
