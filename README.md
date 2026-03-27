@@ -1,4 +1,5 @@
-# README – Apps Móviles
+# Taller 3 - Lista de Tareas con Fragments, Persistencia
+y Recordatorios
 
 ## Información del estudiante
 
