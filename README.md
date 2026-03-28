@@ -1,9 +1,8 @@
-# Taller 3 - Lista de Tareas con Fragments, Persistencia
-y Recordatorios
+# Taller 3 - Lista de Tareas con Fragments, Persistencia y Recordatorios
 
-## Información del estudiante
+## Mockup
 
-* Nombre: Fernando Montañez
+<img width="1536" height="1024" alt="ChatGPT Image 27 mar 2026, 07_14_56 p m" src="https://github.com/user-attachments/assets/6128f6eb-39ca-4e3a-a76e-0f69ca1ebdc1" />
 
 ## Información del curso
 
