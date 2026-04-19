@@ -2,7 +2,7 @@
 
 ## Mockup
 
-<img width="1536" height="1024" alt="Mockup Taller 3" src="https://github.com/user-attachments/assets/dd0f6279-ebe3-4a9f-9119-72ce201b7a87" />
+<img width="1536" height="1024" alt="Mockup definitivo" src="https://github.com/user-attachments/assets/14937623-e2d9-4c17-8f23-e80b99d490c2" />
 
 ## Información del curso
 
