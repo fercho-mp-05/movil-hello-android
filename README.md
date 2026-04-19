@@ -2,7 +2,7 @@
 
 ## Mockup
 
-<img width="1536" height="1024" alt="ChatGPT Image 27 mar 2026, 07_14_56 p m" src="https://github.com/user-attachments/assets/6128f6eb-39ca-4e3a-a76e-0f69ca1ebdc1" />
+<img width="1536" height="1024" alt="Mockup Taller 3" src="https://github.com/user-attachments/assets/dd0f6279-ebe3-4a9f-9119-72ce201b7a87" />
 
 ## Información del curso
 
