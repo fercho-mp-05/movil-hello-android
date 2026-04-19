@@ -6,13 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp"
-    tools:context=".ui.UserDetailFragment">
+    tools:context=".ui.TaskDetailFragment">
 
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Detalle del Usuario"
+        android:text="Detalle de la tarea"
         android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="@android:color/black"
@@ -34,7 +34,7 @@
         android:id="@+id/textViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nombre: Juan García"
+        android:text="Tarea: 'Título de la tarea'"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginTop="16dp"
@@ -65,7 +65,7 @@
         android:id="@+id/buttonBack"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Volver a la Lista"
+        android:text="Guardar"
         android:layout_marginTop="48dp"
         app:layout_constraintTop_toBottomOf="@id/textViewAge"
         app:layout_constraintStart_toStartOf="parent"

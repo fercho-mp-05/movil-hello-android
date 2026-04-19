@@ -1,20 +1,36 @@
 package com.montanezpinzon.helloandroid
 
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
-import androidx.activity.viewModels
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.montanezpinzon.helloandroid.viewmodel.UserViewModel
+import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
 
-    // ViewModel a nivel de Activity (compartido con fragments)
-    private val viewModel: UserViewModel by viewModels()
+    private val requestNotificationPermission = registerForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // El Fragment se carga automáticamente desde el XML
-        // El ViewModel está disponible para todos los fragments
+        requestNotificationPermissionIfNeeded()
+    }
+
+    private fun requestNotificationPermissionIfNeeded() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            val granted = ContextCompat.checkSelfPermission(
+                this,
+                Manifest.permission.POST_NOTIFICATIONS
+            ) == PackageManager.PERMISSION_GRANTED
+
+            if (!granted) {
+                requestNotificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
+            }
+        }
     }
 }

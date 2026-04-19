@@ -3,28 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/userListFragment">
+    app:startDestination="@id/taskListFragment">
 
     <fragment
-        android:id="@+id/userListFragment"
-        android:name="com.montanezpinzon.helloandroid.ui.UserListFragment"
-        android:label="Lista de Usuarios"
-        tools:layout="@layout/fragment_user_list">
+        android:id="@+id/taskListFragment"
+        android:name="com.montanezpinzon.helloandroid.ui.TaskListFragment"
+        android:label="Lista de Tareas"
+        tools:layout="@layout/fragment_task_list">
 
         <action
-            android:id="@+id/action_list_to_detail"
-            app:destination="@id/userDetailFragment" />
+            android:id="@+id/action_taskListFragment_to_taskDetailFragment"
+            app:destination="@id/taskDetailFragment" />
     </fragment>
 
     <fragment
-        android:id="@+id/userDetailFragment"
-        android:name="com.montanezpinzon.helloandroid.ui.UserDetailFragment"
-        android:label="Detalle de Usuario"
-        tools:layout="@layout/fragment_user_detail">
+        android:id="@+id/taskDetailFragment"
+        android:name="com.montanezpinzon.helloandroid.ui.TaskDetailFragment"
+        android:label="Detalle de Tarea"
+        tools:layout="@layout/fragment_task_detail">
 
         <argument
-            android:name="userId"
-            app:argType="integer" />
+            android:name="taskId"
+            app:argType="integer"
+            android:defaultValue="-1" />
     </fragment>
 
 </navigation>
